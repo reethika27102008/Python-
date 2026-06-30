@@ -11,13 +11,13 @@
 #     print()
 
 # # Task3
-# rows = int(input("Enter the row size for the pattern: "))
-# for i in range(1, 6):  
-#     for j in range(6 - i):  
-#         print(" ", end=" ")
-#     for k in range(1, 2 * i):  
-#         print("*", end=" ")
-#     print()
+rows = int(input("Enter the row size for the pattern: "))
+for i in range(1, 6):  
+    for j in range(6 - i):  
+        print(" ", end=" ")
+    for k in range(1, 2 * i):  
+        print("*", end=" ")
+    print()
 
 # Task4 
     

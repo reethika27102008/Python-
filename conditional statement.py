@@ -21,7 +21,7 @@ y=int(input("Enter your marks:"))
 if y>=0 and y<=70:
     print("You scored c Grade")
 elif y>=71 and y<=80:
-    print("You scored B Grade")
+    print("0 You scored B Grade")
 else:
     print(" You scored A grade")
 # Task 4
