@@ -1,26 +1,26 @@
 #  task1  Given two lists, return the set of common elements 
 # that appear more than once in both lists.
 
-set1={10,20,30,40,60}
-set2={0,2,3,40,50,60,70}
-print(set1.intersection(set2))
+# set1={10,20,30,40,60}
+# set2={0,2,3,40,50,60,70}
+# print(set1.intersection(set2))
 
 # task2. Create a set of unique words from a sentence, where words are separated 
 # by spaces and punctuation marks should be ignored.
 
-# sentence = input("Enter a sentence: ")
-# cleaned = ""
-# for i in sentence:
-#     if i.isalnum() or i.isspace():
-#         cleaned += i
-# unique_words = set(cleaned.split())
-# print("Unique words:", unique_words)
+sentence = input("Enter a sentence: ")
+cleaned = ""
+for i in sentence:
+    if i.isalnum() or i.isspace():
+        cleaned += i
+unique_words = set(cleaned.split())
+print("Unique words:", unique_words)
 
 # Task3. Write a function that takes a list of numbers and returns 
 # the largest subset such that the sum of the subset is even.
 
-# total = 0
-# myset = {2, 87, 34, 98, 67}
+# total =0
+# myset = {2, 87, 34, 98, 67,}
 # for i in myset:
 #     total += i
 # print("Original set:", myset)

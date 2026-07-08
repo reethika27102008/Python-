@@ -117,13 +117,13 @@
 
 
 # Task15. Write a Python program to print all duplicate values in a list.
-# mylist = [1, 2, 3, 2, 4, 5, 1, 6]
-# newlist=[]
-# for x in mylist:
-#     if mylist.count(x) > 1:
-#         if x not in newlist:
-#          newlist.append(x)
-# print(newlist)
+mylist = [1, 2, 3, 2, 4, 5, 1, 6]
+newlist=[]
+for x in mylist:
+    if mylist.count(x) > 1:
+        if x not in newlist:
+         newlist.append(x)
+print(newlist)
     
 # Task16 Write a Python program to print list elements until the number 50 appears (stop when found).
 # mylist = [1, 2, 3, 2,4, 5,50, 1, 6]

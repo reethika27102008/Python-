@@ -168,9 +168,12 @@
 
 
 # Task20
-n=input("Enter your value")
-count=0
-for i in n:
-    if i in "aeiou":
-        count+=1
-print(count,"vowels are there")
+# n=input("Enter your value")
+# count=0
+# for i in n:
+#     if i in "aeiou":
+#         count+=1
+# print(count,"vowels are there")
+
+
+a
